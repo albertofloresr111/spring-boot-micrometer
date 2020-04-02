@@ -16,7 +16,7 @@ public class TiendaOnlineController {
             extraTags ={"version","1.0"}
     )
     @GetMapping("/balones")
-    public String hello()  {
+    public String venderBalones()  {
         return "Un artículo Deportivo vendido";
     }
 
@@ -27,7 +27,7 @@ public class TiendaOnlineController {
             extraTags ={"version","1.0"}
     )
     @GetMapping("/mause")
-    public String hello3()  {
+    public String venderMause()  {
         return "Artículo de Computacion vendido";
     }
 
@@ -38,7 +38,7 @@ public class TiendaOnlineController {
             extraTags ={"version","1.0"}
     )
     @GetMapping("/laptop")
-    public String hello4()  {
+    public String venderLaptop()  {
         return "Artículo de Computacion vendido";
     }
 
